@@ -1,16 +1,16 @@
 name: update-profile-daily
 
 on:
-  # Run automatically everyday at 00:05
+  # Run automatically everyday at 00:05 AM UTC (7:05 AM +07)
   schedule:
-  - cron: "5 0 * * *"
+    - cron: "10 0 * * *"
   
   # Allows to manually run the job at any time
   workflow_dispatch:
-  
+
   # Run on every push on the main branch
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 # Only a single workflow in the same concurrency will run at the same time
 concurrency:
@@ -20,20 +20,26 @@ concurrency:
 jobs:
   update_github_profile_readme:
     runs-on: ubuntu-latest
-    name: Generate awesome wallpapers, random quotes, grid snake animation
+    name: Generate assets and update README
     permissions:
       contents: write
     timeout-minutes: 5
     steps:
-    # Checkout main branch
-    - name: Checkout main branch
-      uses: actions/checkout@v4
-      # with:
+      # Checkout main branch
+      - name: Checkout main branch
+        uses: actions/checkout@v4
 
-    - name: Generate assets github-contribution-grid-snake.svg
-      id: snake
-      uses: Platane/snk/svg-only@v3
-      with:
+      # Update profile README
+      - name: Update README
+        uses: JamesIves/github-profile-readme-generator@v4.1.0
+        with:
+          generate_contribution_snake_grid: true
+
+      # Generate contribution snake animation
+      - name: Generate contribution snake animation
+        id: snake
+        uses: Platane/snk/svg-only@v3
+        with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/github-contribution-grid-snake.svg
