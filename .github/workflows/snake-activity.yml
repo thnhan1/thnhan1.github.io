@@ -29,13 +29,6 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v4
 
-      # Update profile README
-      - name: Update README
-        uses: JamesIves/github-profile-readme-generator@v4.1.0
-        with:
-          generate_contribution_snake_grid: true
-
-      # Generate contribution snake animation
       - name: Generate contribution snake animation
         id: snake
         uses: Platane/snk/svg-only@v3
