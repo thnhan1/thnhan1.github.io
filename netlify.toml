@@ -1,0 +1,106 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[build.environment]
+HUGO_VERSION = "0.123.8"
+GO_VERSION = "1.22.1"
+NODE_VERSION = "20"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_URL"
+
+[context.production]
+command = "hugo --gc --minify"
+
+
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.144.0' 
+
+    - name: Remove old publication
+      run: rm -rf public
+
+    - name: Checking out gh-pages branch
+      run: |
+        if git show-ref --verify "refs/remotes/origin/gh-pages"; then
+          git worktree add -B gh-pages public origin/gh-pages
+        elif git show-ref --verify "refs/heads/gh-pages"; then
+          git worktree add -B gh-pages public gh-pages
+        else
+          git worktree add -b gh-pages public
+        fi
+
+    - name: Remove existing files in public
+      run: rm -rf public/*
+
+    - name: Replace secrets in hugo.toml
+      run: |
+        sed -i 's/\$GITALK_CLIENT_ID/${{ secrets.GITALK_CLIENT_ID }}/g' hugo.toml
+        sed -i 's/\$GITALK_CLIENT_SECRET/${{ secrets.GITALK_CLIENT_SECRET }}/g' hugo.toml
+
+    - name: Generate site
+      env:
+        HUGO_ENV: "production"
+      run: hugo -t github-style
+
+    - name: Configure git
+      run: |
+        git config --global user.email "nhandev10@gmail.com"
+        git config --global user.name "Tran Huu Nhan"
+
+    - name: Update gh-pages branch
+      run: |
+        cd public
+        git add --all
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "Publishing to gh-pages (publish.sh)"
+        else
+          echo "No changes to commit in public directory."
+        fi
+
+    - name: Push to GitHub
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        cd public
+        git push origin gh-pages 2>&1 | tee push.log
+        if grep -q "Everything up-to-date" push.log; then
+          echo "gh-pages branch is up-to-date. No changes pushed."
+        elif grep -q "remote: Invalid username or password" push.log; then
+          echo "Error: Invalid GitHub credentials. Check your username and password."
+          exit 1
+        elif grep -q "Permission denied (publickey)" push.log; then
+          echo "Error: Permission denied. Check your SSH key configuration."
+          exit 1
+        elif grep -q "fatal:" push.log; then
+          echo "Error: Git push failed. Check the push.log file for details."
+          exit 1
+        else
+          echo "Successfully pushed changes to gh-pages branch."
+        fi
+        rm push.log
+
+    - name: Deployment complete
+      run: echo "Deployment complete."

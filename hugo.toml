@@ -1,0 +1,66 @@
+baseURL = "https://thnhan1.github.io/"
+languageCode = "vn-vi"
+title = "Nhan's blog"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "Huu Nhan"
+  description = "Life is short, Live it well!"
+  github = "thnhan1"
+  facebook = "thnhan1"
+  twitter = "nhanthatsu"
+  linkedin = "thnhan1"
+  instagram = "thnhan1"
+  tumblr = "thnhan1"
+  email = "nhandev10@gmail.com"
+  url = "https://thnhan1.github.io/"
+  keywords = "blog, google analytics, java, developer, software"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "😀"
+  favicon = "/images/github.jpg"  
+  avatar = "/images/avatar.jpg"   
+  headerIcon = "/images/GitHub-Mark-Light-32px.png"  
+  location = "HCMC, Vietnam"
+  enableGitalk = true
+  custom_css = ["/css/custom.css"]  
+  custom_js = ["/js/custom.js"]  
+  enableSearch = true
+
+[outputs]
+ home = ["html", "json"]
+
+[outputFormats.json]
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = false
+
+[params.gitalk]
+    clientID = "$GITALK_CLIENT_ID"
+    clientSecret = "$GITALK_CLIENT_SECRET"
+    repo = "repo"
+    owner = "thnhan1"
+    admin = "thnhan1"
+    id = "location.pathname"
+    labels = "gitalk"
+    perPage = 15
+    pagerDirection = "last"
+    createIssueManually = true
+    distractionFreeMode = false
+
+  [[params.links]]
+    title = "Link"
+    href = "https://thnhan1.github.io/"
+  [[params.links]]
+    title = "Link2"
+    href = "https://thnhan1.github.io/"
+    icon = "/images/avatar.jpg"  
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+# [services]
+#   [services.googleAnalytics]
+#     ID = "UA-123456-789"
