@@ -1,0 +1,9 @@
+[[works]]
+name = "Tran Nhan"
+url = "https://github.com/thnhan1/blog"
+desc = "My personal blog built with Hugo."
+
+[[works]]
+name = "Vortisil"
+url = "https://example.com/vortisil"
+desc = "Description of Vortisil project."

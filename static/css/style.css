@@ -1,0 +1,16 @@
+.copy-code-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.copy-code-button:hover {
+  background: #555;
+}

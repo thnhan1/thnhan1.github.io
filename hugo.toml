@@ -1,0 +1,60 @@
+baseURL = "/"
+languageCode = "en" # <html lang> ==> data/l10n.toml
+
+license = 'GPL-3.0-or-later'
+licenselink = 'https://github.com/thnhan1/blog/LICENSE'
+title = "Nhan Blog" # Website Title
+copyright = "Tran Nhan" # Footer copyright.
+theme = "vortisil"
+pagination.pagerSize = 9
+hasCJKLanguage = true
+enableEmoji = true
+disableKinds = ["taxonomy","term"] # DO NOT MODIFY
+# allow raw html
+author="Nhan"
+
+
+[params]
+    author = "Tran Nhan" # Author name of the article.
+    logoImg = true # If false, the site title will display.
+    logoInvert = true # If the image logo needs to be turned on Image Colour Inversion.
+    math = true
+    license= "CC BY-NC-SA 4.0"
+    licenseLink = "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+
+[params.meta]
+    description = "A fast, minimal and restrained Hugo theme." # Site description
+  
+[[menus.main]]
+    identifier = "home"
+    url = "/"
+    weight = 1
+
+[[menus.main]]
+    identifier = "about"
+    url = "/about"
+    weight = 2
+
+[[menus.main]]
+    identifier = "archives"
+    url = "/posts"
+    weight = 3
+
+[module]
+    [module.hugoVersion]
+        extended = true
+        min = "0.116.0"
+
+[markup]
+    [markup.highlight]
+        style = "dracula"
+        codeFences = true
+        guessSyntax = true
+        lineNumbersInTable = true
+        tabWidth = 4
+    [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+    home = ["HTML", "JSON"]
