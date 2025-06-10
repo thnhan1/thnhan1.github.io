@@ -1,18 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Nhan blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Nhan blog</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>Huu Nhan</copyright>
+    <lastBuildDate>Tue, 10 Jun 2025 18:55:12 +0700</lastBuildDate>
+    
+        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title></title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description></description>
+      <title>10/06/2025 Một ngày mưa</title>
+      <link>http://localhost:1313/writings/2025/06/10/10/06/2025-m%E1%BB%99t-ng%C3%A0y-m%C6%B0a/</link>
+      <pubDate>Tue, 10 Jun 2025 18:55:12 +0700</pubDate>
+      
+      <guid>http://localhost:1313/writings/2025/06/10/10/06/2025-m%E1%BB%99t-ng%C3%A0y-m%C6%B0a/</guid>
+      <description>&lt;h1 id=&#34;hôm-nay-trời-mưa&#34;&gt;Hôm nay trời mưa&lt;/h1&gt;
+&lt;p&gt;Hôm nay là một ngày trời mưa gần cả ngày. Vào lúc mình viết bài này là 6h58 thì mưa càng lớn.
+Câu lệ cho người nghèo thì mình không có ý giàu nghèo gì đâu. Người nghèo là người thiếu, người biết đủ là người không nghèo. N&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color: red;&#34;&gt; Xin choa&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#8be9fd&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;main&lt;/span&gt;(String &lt;span style=&#34;color:#ff79c6&#34;&gt;[]&lt;/span&gt; args) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#50fa7b&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;xin chao&amp;#34;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
+    
+    <item>
+      <title>About me of the Worlds</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 07 May 2025 23:30:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
+&lt;p&gt;Hello! I&amp;rsquo;m a software engineer passionate about building innovative solutions and exploring new technologies.&lt;/p&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Programming Languages: Python, JavaScript, Go&lt;/li&gt;
+&lt;li&gt;Web Technologies: React, Node.js, HTML/CSS&lt;/li&gt;
+&lt;li&gt;Database Systems: PostgreSQL, MongoDB&lt;/li&gt;
+&lt;li&gt;Cloud Platforms: AWS, GCP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;p&gt;Currently working on interesting projects in cloud computing and web development. Always eager to learn and contribute to open-source communities.&lt;/p&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;Feel free to connect with me through:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub: [username]&lt;/li&gt;
+&lt;li&gt;LinkedIn: [profile]&lt;/li&gt;
+&lt;li&gt;Email: [email]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

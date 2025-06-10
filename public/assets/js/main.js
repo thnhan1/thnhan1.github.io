@@ -1,47 +1,37 @@
 (() => {
   // <stdin>
-  console.log("%cVortisil (https://github.com/khitezza/vortisil)", "font-style: italic;");
-  document.addEventListener("DOMContentLoaded", function() {
-    const navbarBurger = document.getElementById("navbar-burger");
-    const navbarMenu = document.getElementById("navbar-menu");
-    navbarBurger.addEventListener("click", function() {
-      navbarBurger.classList.toggle("active");
-      navbarMenu.classList.toggle("active");
-    });
-  });
-  scrollToTop = function() {
-    const duration = 350;
-    const start = window.scrollY;
-    const startTime = performance.now();
-    function scroll() {
-      const now = performance.now();
-      const time = Math.min(1, (now - startTime) / duration);
-      const easedTime = time * (2 - time);
-      window.scrollTo(0, start * (1 - easedTime));
-      if (time < 1) {
-        requestAnimationFrame(scroll);
-      }
+  var themeToggleBtn = document.getElementById("theme-toggle-btn");
+  lightIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#FFF2DF" d="M12 18a6 6 0 0 1-6-6a6 6 0 0 1 6-6a6 6 0 0 1 6 6a6 6 0 0 1-6 6m8-2.69L23.31 12L20 8.69V4h-4.69L12 .69L8.69 4H4v4.69L.69 12L4 15.31V20h4.69L12 23.31L15.31 20H20z"/></svg>';
+  darkIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="#1a1a1a" d="M10 2c-1.82 0-3.53.5-5 1.35C8 5.08 10 8.3 10 12s-2 6.92-5 8.65C6.47 21.5 8.18 22 10 22a10 10 0 0 0 10-10A10 10 0 0 0 10 2"/></svg>';
+  var currentTheme = document.documentElement.getAttribute("data-theme");
+  themeToggleBtn.innerHTML = currentTheme === "dark" ? lightIcon : darkIcon;
+  themeToggleBtn.addEventListener("click", () => {
+    const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+    if (isDark) {
+      document.documentElement.setAttribute("data-theme", "light");
+      themeToggleBtn.innerHTML = darkIcon;
+      localStorage.setItem("theme", "light");
+    } else {
+      document.documentElement.setAttribute("data-theme", "dark");
+      themeToggleBtn.innerHTML = lightIcon;
+      localStorage.setItem("theme", "dark");
     }
-    requestAnimationFrame(scroll);
-  };
-  document.addEventListener("DOMContentLoaded", function() {
-    document.querySelectorAll("div.code-wrapper").forEach((container) => {
-      const btn = document.createElement("button");
-      btn.className = "copy-code-btn";
-      btn.textContent = "Copy";
-      container.appendChild(btn);
-      btn.addEventListener("click", async () => {
-        const code = container.querySelector("code").innerText;
-        try {
-          await navigator.clipboard.writeText(code);
-          btn.classList.add("copied");
-          btn.textContent = "\u2713 Copied";
-          setTimeout(() => btn.classList.remove("copied"), 2e3);
-        } catch (err) {
-          btn.textContent = "Failed";
-          setTimeout(() => btn.textContent = "Copy", 2e3);
-        }
-      });
-    });
   });
+  homeTabSwitch = function(tabName) {
+    const writings = document.getElementById("writings");
+    const switchWritings = document.getElementById("switchWritings");
+    const projects = document.getElementById("projects");
+    const switchProjects = document.getElementById("switchProjects");
+    if (tabName === "writings") {
+      writings.style.display = "flex";
+      switchWritings.style.color = "var(--color-accent)";
+      projects.style.display = "none";
+      switchProjects.style.color = "var(--color-text)";
+    } else {
+      writings.style.display = "none";
+      switchWritings.style.color = "var(--color-text)";
+      projects.style.display = "flex";
+      switchProjects.style.color = "var(--color-accent)";
+    }
+  };
 })();

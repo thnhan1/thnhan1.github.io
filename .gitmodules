@@ -1,3 +1,6 @@
 [submodule "themes/vortisil"]
 	path = themes/vortisil
 	url = https://github.com/khitezza/vortisil
+[submodule "themes/silavind"]
+	path = themes/silavind
+	url = https://github.com/khitezza/silavind

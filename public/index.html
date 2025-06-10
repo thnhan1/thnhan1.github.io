@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="light" lang="en-us"
+<html data-theme="light" lang="en"
   dir="ltr">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
@@ -7,33 +7,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta http-equiv="X-UA-Compatible" content="IE = edge, chrome = 1">
 
-<title>
-  My New Hugo Site
-</title>
+<title>Nhan blog</title>
 
-<meta name="description" content="">
-
+<meta name="description" content="A very simple blog of simp developer.">
 <meta name="generator" content="Hugo 0.147.8">
-
 <link rel="canonical" href="http://localhost:1313/">
-
 <meta property="og:type" content="website">
-
-<meta property="og:locale" content="en-us">
-<meta property="og:title" content='My New Hugo Site'>
-<meta property="og:site_name" content="My New Hugo Site">
-<meta property="og:description" content="">
+<meta property="og:locale" content="en">
+<meta property="og:title" content='Nhan blog'>
+<meta property="og:site_name" content="Nhan blog">
+<meta property="og:description" content="A very simple blog of simp developer.">
 <meta property="og:url" content="http://localhost:1313/">
-
 <meta property="og:image" content="/assets/imgs/hero.webp">
 <meta name="twitter:image" content="/assets/imgs/hero.webp">
-
 <meta name="twitter:card" content="summary_large_image">
-
 <link rel="shortcut icon" href="/assets/imgs/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon-16x16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/imgs/apple-touch-icon.png">
+
+
+
+
+<link rel="stylesheet" href="/assets/scss/fonts.min.css">
+
+
+
 
 
 
@@ -52,62 +51,41 @@
   })();
 </script>
 
-
-
-
-<style>
-  @font-face {
-    font-family: 'jicaleta';
-    src: url('/assets/fonts/Jicaleta-Regular.83dd0e7b882bf278618f3db4d4f27c08f8af4d569257a4378e51e3f602e135ca.woff2') format('woff2'),
-    url('/assets/fonts/Jicaleta-Regular.f075ee85c86402151d90c4704f7d86ff7ed52e49e7da47e201ee4f7e6f76d2ff.woff') format('woff');
-  }
-</style>
-
-
-
-
-
-
-
-<script src="/assets/js/main.js"></script>
-
-
-
-
-
-
-
+<script>
+      (function () {
+        console.info(
+          '%c Theme %c ' + 'Silavind v1.2.2 ',
+          'padding: 3px 6px; border-radius: 3px 0 0 3px; color: #fff; background: #228B22; font-weight: bold;',
+          'padding: 3px 6px; border-radius: 0 3px 3px 0; color: #fff; background: #2ECC71; font-weight: bold;'
+        )
+        console.log("https://github.com/khitezza/silavind")
+        console.log("Designed by Hao Wu <hao.wu@khitezza.com>")
+      })();
+</script>
 </head>
 
 <body>
+  <div class="top" id="top"></div>
   <header>
+    <style>
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
     <nav class="navbar">
-        <div class="navbar-top" id="top">
-            <div class="navbar-logo">
-                <a href="http://localhost:1313/" class="logo-text" style="font-family: jicaleta;">
-                    
-                    My New Hugo Site
-                    
-                </a>
-            </div>
-            <div class="navbar-burger" id="navbar-burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+        <div class="navbar-brand">
+            <a href="http://localhost:1313/">Nhan blog</a>
         </div>
-        <div class="navbar-menu" id="navbar-menu">
-            <div class="navbar-link-list">
-                
-                <a href="/search" class="navbar-link-item">Search</a>
+        <div class="navbar-link">
+            <div class="navbar-link-item" style="display: flex; gap: 1rem;">
+                <a href="/about">About</a>
+                <a href="/index.xml">RSS</a>
             </div>
-            <div class="theme-toggle">
-                <div id="theme-toggle-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
-                        <path fill="#1a1a1a"
-                            d="M10 2c-1.82 0-3.53.5-5 1.35C8 5.08 10 8.3 10 12s-2 6.92-5 8.65C6.47 21.5 8.18 22 10 22a10 10 0 0 0 10-10A10 10 0 0 0 10 2" />
-                    </svg>
-                </div>
+            <div class="theme-toggle-btn" id="theme-toggle-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                    <path fill="#1a1a1a"
+                        d="M10 2c-1.82 0-3.53.5-5 1.35C8 5.08 10 8.3 10 12s-2 6.92-5 8.65C6.47 21.5 8.18 22 10 22a10 10 0 0 0 10-10A10 10 0 0 0 10 2" />
+                </svg>
             </div>
         </div>
     </nav>
@@ -115,57 +93,104 @@
 
   <main>
     
-
 <section class="hero" id="hero">
+  
+  
+  <img src="/assets/imgs/hero_hu_b4a26838e04d5a8a.webp" alt="Hero Image" class="hero-image" loading="lazy">
+</section>
 
+<section class="about" id="about">
+  <div class="about-intro">Life is short, live it well.</div>
+  <div class="about-social">
+    <ul class="about-social-links">
+      
+      <li>
+        <a href="https://github.com/thnhan1" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+      </li>
+      
+      <li>
+        <a href="mailto:nhandev10@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">Email</a>
+      </li>
+      
+      <li>
+        <a href="https://www.linkedin.com/in/trannhan10/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+      </li>
+      
+    </ul>
+  </div>
+</section>
+
+<section class="section-title">
+  <div id="switchWritings" onclick="homeTabSwitch('writings')">Writings</div>
+  <span class="separator"></span>
+  <div id="switchProjects" onclick="homeTabSwitch('projects')">Projects</div>
+</section>
+
+<section class="writings" id="writings">
+  
+  
+  
+
+  
+  <div class="writings-list">
     
+    <div class="writings-item">
+      <div class="writings-date">2025-06-10</div>
+      <div class="writings-title" style="border-bottom: none;">
+        <a href="/writings/2025/06/10/10/06/2025-m%E1%BB%99t-ng%C3%A0y-m%C6%B0a/">10/06/2025 Một ngày mưa</a>
+        
+        <p>Hôm nay trời mưa Hôm nay là một ngày trời mưa gần cả ngày. Vào lúc mình viết bài này là 6h58 thì mưa càng lớn. Câu lệ...</p>
+      </div>
+    </div>
     
-    <img src="/assets/imgs/hero_hu_e1c875560f2d3723.webp" alt="Hero Image" class="hero-image" loading="lazy">
-
-</section>
-
-<section class="posts" id="posts">
-
-    <div class="section-title">Posts</div>
-
-    <div class="posts-list">
-        
-        
+  </div>
+  
+  <div class="pagination">
+    
+    <div class="pagination-prev">FIRST</div>
+    
+    <div class="pagination-page">1<span class="separator"></span>1
     </div>
-
+    
+    <div class="pagination-next">LAST</div>
+    
+</div>
 </section>
 
-<section class="works" id="works">
-
-    <div class="section-title">Works</div>
-
-    <div class="works-list">
-        
-        <div class="works-item">
-            <div class="works-title">
-                <div class="works-title-content"><a href="https://github.com/khitezza/vortisil" target="_blank" rel="noopener">Vortisil</a></div>
-                <div class="works-title-desc" >A fast, minimal, and restrained Hugo theme.</div>
-            </div>
-        </div>
-        
-    </div>
-
+<section class="projects" id="projects">
+  <div class="projects-list">
+      
+      <div class="projects-item">
+          <div class="projects-title">
+              <div class="projects-title-content"><a href="#" target="_blank" rel="noopener">Plant Shop Website</a><span>[ 2024-06-07 ]</span></div>
+              <div class="projects-title-desc" >Spring MVC project in subject ESD</div>
+          </div>
+      </div>
+      
+      <div class="projects-item">
+          <div class="projects-title">
+              <div class="projects-title-content"><a href="https://thnhan1.github.io/ebooking.git/" target="_blank" rel="noopener">Restaurant Reservation System</a><span>[ 2025-04-08 | MIT ]</span></div>
+              <div class="projects-title-desc" >Fullstack web application for chain restaurant booking module</div>
+          </div>
+      </div>
+      
+  </div>
 </section>
-
 
   </main>
 
-  
-
   <footer class="footer">
-    <span>&copy; 2025 . All rights reserved.</span>
-    <span>Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/khitezza/vortisil/">Vortisil</a>.</span>
+    <span>&copy; 2025 Huu Nhan. All rights reserved.</span>
+    <span>Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/khitezza/silavind/">Silavind</a>.</span>
 </footer>
+
   
   
-  <script src="/assets/js/site-theme-toggle.js"></script>
+  
+  <script src="/assets/js/main.js"></script>
   
   
-  </body>
+  
+</body>
 
 </html>
