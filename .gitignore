@@ -1,0 +1,29 @@
+# Hugo project .gitignore
+
+# Hugo build output
+/public/
+/resources/
+
+# Hugo temporary files
+/.hugo_build.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Node modules (if using npm or yarn)
+node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Backup files
+*.bak
+*.swp
+*.swo
