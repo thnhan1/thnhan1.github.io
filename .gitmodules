@@ -1,6 +1,0 @@
-[submodule "silavind"]
-	path = silavind
-	url = https://github.com/khitezza/silavind
-[submodule "themes/silavind"]
-	path = themes/silavind
-	url = https://github.com/khitezza/silavind
