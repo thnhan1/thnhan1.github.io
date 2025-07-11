@@ -26,10 +26,10 @@
       writings.style.display = "flex";
       switchWritings.style.color = "var(--color-accent)";
       projects.style.display = "none";
-      switchProjects.style.color = "var(--color-text)";
+      switchProjects.style.color = "var(--color-primary)";
     } else {
       writings.style.display = "none";
-      switchWritings.style.color = "var(--color-text)";
+      switchWritings.style.color = "var(--color-primary)";
       projects.style.display = "flex";
       switchProjects.style.color = "var(--color-accent)";
     }
