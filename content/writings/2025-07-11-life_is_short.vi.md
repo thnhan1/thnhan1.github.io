@@ -10,7 +10,7 @@ Mình đọc 1 bài trên SubStack. 1 cuộc đời = 4000 tuần = 76 năm. Nó
 Yêu bạn thân. Cuộc đời ngắn - Sống cho tốt. (Ít nhất gia đình tự hào về bạn).
 
 <div style="display: flex; justify-content: center;padding: 0; margin: 0;">
-    <img src="/assets/imgs/07112025.png" alt="be happy" width="50%">
+    <img src="07112025.png" alt="be happy" width="50%">
 </div>
 
 # Thất nghiệp

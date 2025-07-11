@@ -13,7 +13,7 @@ I read an article on SubStack. One lifetime = 4000 weeks = 76 years. It's finite
 Love yourself. Life is short - Live it well. (atleast your family proud of u).
 
 <div style="display: flex; justify-content: center;padding: 0; margin: 0;">
-    <img src="/assets/imgs/07112025.png" alt="be happy" width="50%">
+    <img src="assets/imgs/07112025.png" alt="be happy" width="50%">
 </div>
 
 # Unemployed
