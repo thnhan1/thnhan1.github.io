@@ -1,12 +1,27 @@
 # Language: English (en, en_US)
 [en]
 home = 'Home'
+about = 'About'
 writings = 'Writings'
 projects = 'Projects111'
 backtotop = 'Back To Top'
-pagenotfound_title = 'Page Not Found'
-pagenotfound_desc = 'The page you requested cannot be found'
+pagenotfound_title = 'Page Not Foun'
+pagenotfound_desc = 'The page you requested cannot be found1'
 return_home = 'Return to the home page'
 all_rights_reserved = 'All rights reserved'
 powered_by = 'Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/khitezza/silavind/">Silavind</a>'
 license = 'This article is licensed under <a href="%s" target="_blank" rel="license noopener noreferrer">__license__</a>'
+
+# tieng viet
+[vi]
+home = 'Trang chủ'
+about = 'Giới thiệu'
+writings = 'Bài viết'
+projects = 'Dự án'
+backtotop = 'Lên đầu trang'
+pagenotfound_title = 'Không tìm thấy trang'
+pagenotfound_desc = 'Trang bạn yêu cầu không thể tìm thấy'
+return_home = 'Quay lại trang chủ'
+all_rights_reserved = 'Bản quyền thuộc về tác giả'
+powered_by = 'Được cung cấp bởi <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/khitezza/silavind/">Silavind</a>'
+license = 'Bài viết này được cấp phép theo <a href="%s" target="_blank" rel="license noopener noreferrer">__license__</a>'

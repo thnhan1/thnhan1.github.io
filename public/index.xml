@@ -6,52 +6,180 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Huu Nhan</copyright>
-    <lastBuildDate>Tue, 10 Jun 2025 18:55:12 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 11 Jul 2025 06:56:01 +0700</lastBuildDate>
     
         <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>10/06/2025 Một ngày mưa</title>
-      <link>http://localhost:1313/writings/2025/06/10/10/06/2025-m%E1%BB%99t-ng%C3%A0y-m%C6%B0a/</link>
-      <pubDate>Tue, 10 Jun 2025 18:55:12 +0700</pubDate>
+      <title>Life is Short</title>
+      <link>http://localhost:1313/writings/2025/07/11/life-is-short/</link>
+      <pubDate>Fri, 11 Jul 2025 06:56:01 +0700</pubDate>
       
-      <guid>http://localhost:1313/writings/2025/06/10/10/06/2025-m%E1%BB%99t-ng%C3%A0y-m%C6%B0a/</guid>
-      <description>&lt;h1 id=&#34;hôm-nay-trời-mưa&#34;&gt;Hôm nay trời mưa&lt;/h1&gt;
-&lt;p&gt;Hôm nay là một ngày trời mưa gần cả ngày. Vào lúc mình viết bài này là 6h58 thì mưa càng lớn.
-Câu lệ cho người nghèo thì mình không có ý giàu nghèo gì đâu. Người nghèo là người thiếu, người biết đủ là người không nghèo. N&lt;/p&gt;
-&lt;p&gt;&lt;span style=&#34;color: red;&#34;&gt; Xin choa&lt;/span&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;public&lt;/span&gt; &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;static&lt;/span&gt; &lt;span style=&#34;color:#8be9fd&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;main&lt;/span&gt;(String &lt;span style=&#34;color:#ff79c6&#34;&gt;[]&lt;/span&gt; args) {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    System.&lt;span style=&#34;color:#50fa7b&#34;&gt;out&lt;/span&gt;.&lt;span style=&#34;color:#50fa7b&#34;&gt;println&lt;/span&gt;(&lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;xin chao&amp;#34;&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <guid>http://localhost:1313/writings/2025/07/11/life-is-short/</guid>
+      <description>&lt;h1 id=&#34;how-much-time-in-a-life&#34;&gt;How Much Time in a Life&lt;/h1&gt;
+&lt;p&gt;I read an article on SubStack. One lifetime = 4000 weeks = 76 years. It&amp;rsquo;s finite, and we might not even get all 76 years.
+Love yourself. Life is short - Live it well. (atleast your family proud of u).&lt;/p&gt;
+&lt;div style=&#34;display: flex; justify-content: center;padding: 0; margin: 0;&#34;&gt;
+    &lt;img src=&#34;http://localhost:1313/assets/imgs/07112025.png&#34; alt=&#34;be happy&#34; width=&#34;50%&#34;&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;unemployed&#34;&gt;Unemployed&lt;/h1&gt;
+&lt;p&gt;More accurately, I haven&amp;rsquo;t found an internship yet. I&amp;rsquo;m confident in my technical knowledge, specifically as a backend dev with Java Spring Boot. A search shows hundreds of jobs paying &amp;gt;$1,500-$3,000 per month, but they require 5-15 years of experience. Happiness is simply being able to go home, but choosing this field means no jobs in my hometown. Fortunately, my hometown is nearby.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I just want to say that I&amp;rsquo;m hoping for a job in my field. I&amp;rsquo;m a final year student, so how could I have experience?
+Without intern/fresher positions, how can I apply?&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;But that&amp;rsquo;s just talk. As Đen raps, &amp;ldquo;When you love life, life will love you passionately.&amp;rdquo;
+Or as Ngọt sings, &amp;ldquo;Yesterday&amp;rsquo;s sorrows are today&amp;rsquo;s jokes.&amp;rdquo; Recently I was so stressed my heart was racing, nearly hyperventilating because I thought I&amp;rsquo;d missed my internship deadline. But I was confusing it with an earlier date. My deadline is still two weeks away.&lt;/p&gt;
+&lt;p&gt;Sending signals to the universe to find a job paying $250/month, and I&amp;rsquo;ll give up coffee until I&amp;rsquo;m 28.&lt;/p&gt;
+&lt;h1 id=&#34;loneliness&#34;&gt;Loneliness&lt;/h1&gt;
+&lt;p&gt;It&amp;rsquo;s been a long time since my breakup, and I haven&amp;rsquo;t had any relationships. Honestly, I&amp;rsquo;ve barely seen people at all. I haven&amp;rsquo;t been to campus for nearly half a year because I completed my courses and am just waiting for an internship. It&amp;rsquo;s quite stressful feeling like I&amp;rsquo;m wasting my college years without making any impact.&lt;/p&gt;
+&lt;h1 id=&#34;optimism&#34;&gt;Optimism&lt;/h1&gt;
+&lt;p&gt;I broke my ceramic cactus pot. It was quite expensive, but I don&amp;rsquo;t regret it because I feel it stayed with me long enough—about a year. Like a human life cycle, everything eventually ends, friends and family will leave us. What matters is the time we spend together.&lt;/p&gt;
+&lt;h1 id=&#34;relaxation&#34;&gt;Relaxation&lt;/h1&gt;
+&lt;p&gt;Music saves my soul.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>About me of the Worlds</title>
+      <title></title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 07 May 2025 23:30:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
-&lt;p&gt;Hello! I&amp;rsquo;m a software engineer passionate about building innovative solutions and exploring new technologies.&lt;/p&gt;
-&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;div class=&#34;profile-header&#34;&gt;
+  &lt;h2&gt;Nhan Tran&lt;/h2&gt;
+  &lt;p class=&#34;tagline&#34;&gt;Backend Developer&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;-technical-skills&#34;&gt;🛠 Technical Skills&lt;/h2&gt;
+&lt;div class=&#34;skills-grid&#34;&gt;
+  &lt;div class=&#34;skill-column&#34;&gt;
+    &lt;h3&gt;Backend&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Spring Boot/Cloud&lt;/li&gt;
+      &lt;li&gt;Nest.js&lt;/li&gt;
+      &lt;li&gt;RESTful APIs&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;skill-column&#34;&gt;
+    &lt;h3&gt;Frontend&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;React/Next.js&lt;/li&gt;
+      &lt;li&gt;TypeScript&lt;/li&gt;
+      &lt;li&gt;Responsive Design&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;skill-column&#34;&gt;
+    &lt;h3&gt;DevOps&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;AWS&lt;/li&gt;
+      &lt;li&gt;Docker&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;skill-column&#34;&gt;
+    &lt;h3&gt;Database&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;PostgreSQL&lt;/li&gt;
+      &lt;li&gt;Redis&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;skill-column&#34;&gt;
+    &lt;h3&gt;Security&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IdP: Keycloak&lt;/li&gt;
+      &lt;li&gt;OAuth2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;-experience&#34;&gt;💼 Experience&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Software Developer&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Current&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Programming Languages: Python, JavaScript, Go&lt;/li&gt;
-&lt;li&gt;Web Technologies: React, Node.js, HTML/CSS&lt;/li&gt;
-&lt;li&gt;Database Systems: PostgreSQL, MongoDB&lt;/li&gt;
-&lt;li&gt;Cloud Platforms: AWS, GCP&lt;/li&gt;
+&lt;li&gt;Develop scalable microservices using Spring Cloud&lt;/li&gt;
+&lt;li&gt;Build responsive UIs with React/Next.js&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
-&lt;p&gt;Currently working on interesting projects in cloud computing and web development. Always eager to learn and contribute to open-source communities.&lt;/p&gt;
-&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-&lt;p&gt;Feel free to connect with me through:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Writing and Contributor&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;GitHub: [username]&lt;/li&gt;
-&lt;li&gt;LinkedIn: [profile]&lt;/li&gt;
-&lt;li&gt;Email: [email]&lt;/li&gt;
+&lt;li&gt;Writer in Viblo, SubStack, Personal Blog.&lt;/li&gt;
+&lt;li&gt;Open source Contributer.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
+&lt;h2 id=&#34;-contact&#34;&gt;📫 Contact&lt;/h2&gt;
+&lt;div class=&#34;contact-links&#34;&gt;
+  &lt;a href=&#34;https://github.com/thnhan1&#34; target=&#34;_blank&#34;&gt;
+    &lt;img src=&#34;https://img.icons8.com/fluent/24/000000/github.png&#34; alt=&#34;GitHub&#34;/&gt;
+    GitHub
+  &lt;/a&gt;
+  &lt;a href=&#34;mailto:huunhantran10@gmail.com&#34;&gt;
+    &lt;img src=&#34;https://img.icons8.com/fluent/24/000000/email.png&#34; alt=&#34;Email&#34;/&gt;
+    Email
+  &lt;/a&gt;
+  &lt;a href=&#34;https://linkedin.com/in/yourprofile&#34; target=&#34;_blank&#34;&gt;
+    &lt;img src=&#34;https://img.icons8.com/fluent/24/000000/linkedin.png&#34; alt=&#34;LinkedIn&#34;/&gt;
+    LinkedIn
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.profile-header {
+  margin-bottom: 1.5rem;
+}
+
+.tagline {
+  color: #666;
+  font-style: italic;
+  margin-top: -0.8rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.skill-column h3 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.skill-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill-column li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.skill-column li:before {
+  content: &#34;▹&#34;;
+  position: absolute;
+  left: 0;
+  color: #3498db;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #3498db;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-links a:hover {
+  transform: translateY(-2px);
+  text-decoration: underline;
+}
+&lt;/style&gt;</description>
     </item>
     
   </channel>

@@ -1,0 +1,39 @@
+{{ define "main" }}
+<h1 class="title-h1">{{ .Title }}</h1>
+
+<div class="article-header">
+  {{ with .Params.preface }}
+    <span class="preface">{{ . }}</span>
+  {{ end }}
+  
+  {{ if and (ne .Site.Params.author "hidden") (ne .Params.author "hidden") }}
+    {{ if ne .Site.Params.preface_author "hidden" }}
+      <span class="preface-author">{{ .Site.Params.preface_author }}</span>
+    {{ end }}
+
+    {{ if and (ne .Site.Params.author "hidden") (ne .Params.author "hidden") }}
+      <span class="article-author">{{ or .Params.article_author .Site.Params.author }}</span>
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format ":date_long" }}
+      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    {{ end }}
+  {{ end }}
+</div>
+
+
+
+
+{{ .Content }}
+
+{{ with .Params.license }}
+<div class="article-license">
+  {{ $dynamicContent := safeHTML (printf (index $.Site.Data.l10n "license") $.Params.license_url) }}
+  {{ $renderedContent := replace $dynamicContent "__license__" . }}
+  <span>{{ $renderedContent | safeHTML }}</span>
+</div>
+{{ end }}
+
+<div class="backtotop">
+  <a href="#top">{{ index $.Site.Data.l10n "backtotop" }}</a>
+</div>
+{{ end }}
