@@ -1,7 +1,8 @@
-{{ $copy := resources.Get "js/copy-code.js" | resources.Minify | fingerprint }}
+
+{{ $copy := resources.Get "assets/js/copy-code.js" | resources.Minify | fingerprint }}
 <script src="{{ $copy.RelPermalink }}" defer></script>
 
-{{ $style := resources.Get "css/custom.css" | resources.Minify | fingerprint }}
+{{ $style := resources.Get "assets/css/custom.css" | resources.Minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 <footer class="footer">
     <span>&copy; {{ now.Year }} {{ site.Copyright}}. {{ index $.Site.Data.l10n "all_rights_reserved" }}.</span>
