@@ -20,7 +20,6 @@ Thumbs.db
 assets/css/*.css
 assets/js/*.js
 # Ignore PDF and other generated files
-*.pdf
 # Ignore theme submodules
 /themes/*/node_modules/
 /themes/*/public/
