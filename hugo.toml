@@ -1,7 +1,7 @@
 languageCode = 'en'
 defaultContentLanguage = "en"
 title = 'Nhan Blog'
-theme = 'Silavind'
+theme = 'silavind'
 pagination.pagerSize = 5
 hasCJKLanguage = true
 enableEmoji = true
