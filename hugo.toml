@@ -26,7 +26,7 @@ homepage = 'https://nhanabc.xyz'
 
 [params]
 disableHeroVideo = true
-intro="xin chao"
+intro="Life is short, Live it well"
 # =================Social====================
 [params.social] 
 [[params.social.links]]

@@ -4,7 +4,7 @@ writings: 'Writings'
 projects: 'Projects'
 backtotop: 'Back to top'
 pagenotfound_title: 'Page not found'
-pagenotfound_desc: 'The page you requested could not be found'
+pagenotfound_desc: "The page you are looking for doesn't exist"
 return_home: 'Return to home'
 all_rights_reserved: 'All rights reserved'
 # powered_by: 'Themes: silavind custom'
