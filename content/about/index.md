@@ -59,8 +59,8 @@ A Backend Developer passionate about building scalable server-side applications.
 </p>
 
 <p>
-<a href="/CV_Java_Backend_TranHuuNhan.pdf" target="_blank" rel="noopener">
-    View my CV
-  </a>
-</p>
 
+<a href="/CV_Java_Backend_TranHuuNhan.pdf" target="_blank" rel="noopener">
+  View my CV
+</a>
+</p>

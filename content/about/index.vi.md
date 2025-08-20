@@ -58,7 +58,10 @@ Một Backend Developer đam mê xây dựng các ứng dụng phía máy chủ 
   </a>
 </p>
 <p>
-<a href="/CV_Java_Backend_TranHuuNhan.pdf" target="_blank" rel="noopener">
-    Xem CV
+  <a href="{{ 'CV_Java_Backend_TranHuuNhan.pdf' | relURL }}"
+     target="_blank"
+     rel="noopener"
+     style="display: inline-block; padding: 8px 16px; background-color: #228B22; color: #fff; border-radius: 4px; text-decoration: none; font-weight: bold;">
+    View my CV
   </a>
 </p>
