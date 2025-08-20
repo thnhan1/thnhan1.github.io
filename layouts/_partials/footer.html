@@ -1,0 +1,9 @@
+{{ $copy := resources.Get "js/copy-code.js" | minify | fingerprint }}
+<script src="{{ $copy.RelPermalink }}" defer></script>
+
+{{ $style := resources.Get "css/custom.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<footer class="footer">
+    <span>&copy; {{ now.Year }} {{ site.Copyright}}. {{ index $.Site.Data.l10n "all_rights_reserved" }}.</span>
+    <span>{{ index $.Site.Data.l10n "powered_by" | safeHTML }}.</span>
+</footer>

@@ -1,0 +1,26 @@
+# Hugo build output
+/public/
+/resources/
+/node_modules/
+.DS_Store
+*.log
+*.swp
+# OS-specific files
+Thumbs.db
+# Hugo cache
+.cache/
+# Backup files
+*.bak
+*.tmp
+# VS Code settings
+.vscode/
+# SASS/SCSS cache
+.sass-cache/
+# Compiled assets
+assets/css/*.css
+assets/js/*.js
+# Ignore PDF and other generated files
+*.pdf
+# Ignore theme submodules
+/themes/*/node_modules/
+/themes/*/public/

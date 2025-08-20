@@ -1,0 +1,39 @@
+<header>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            <button class="navbar-toggle" id="navbar-toggle" style="font-size: 13px; color: #1a1">
+                <svg width="20" height="20" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 12h32M8 24h32M8 36h32" stroke="#1a1" stroke-width="4" stroke-linecap="round" fill="none"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-link">
+                {{ range .Site.Params.header.links }}
+                <a href="{{ .url | relLangURL }}">
+                    {{ index $.Site.Data.l10n $.Site.Language.Lang (index . "name") }}
+                </a>
+                {{ end }}
+            </div>
+
+            <div class="theme-toggle-btn" id="theme-toggle-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                    <path fill="#1a1a1a"
+                        d="M10 2c-1.82 0-3.53.5-5 1.35C8 5.08 10 8.3 10 12s-2 6.92-5 8.65C6.47 21.5 8.18 22 10 22a10 10 0 0 0 10-10A10 10 0 0 0 10 2" />
+                </svg>
+            </div>
+
+            <div class="lang-switch">
+                {{ range .AllTranslations }}
+                {{ if ne .Language.Lang $.Site.Language.Lang }}
+                <a href="{{ .RelPermalink }}">{{ .Language.Lang }}</a>
+                {{ else }}
+                <a class="active">{{ .Language.Lang }}</a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </nav>
+</header>

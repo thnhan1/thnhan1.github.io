@@ -1,0 +1,100 @@
+languageCode = 'en'
+defaultContentLanguage = "en"
+title = 'Nhan Blog'
+theme = 'Silavind'
+pagination.pagerSize = 5
+hasCJKLanguage = true
+enableEmoji = true
+# Allow html tag
+enableHTML = true
+enableInlineShortcodes = true
+taxonomies.tag = "tags"
+# disableKinds = ["section", "taxonomy", "term"]
+name = 'Huu Nhan'
+license = 'GPL-3.0-or-later'
+licenselink = 'https://github.com/ertzizart/silavind/LICENSE'
+description = 'A simple blog and simple life notes.'
+tags = ["blog", "responsive", "clean", "light", "dark"]
+features = ["blog", "darkmode", "single-column", "responsive"]
+min_version = "0.147.0"
+
+[author]
+name = 'Huu Nhan'
+homepage = 'https://nhanabc.xyz'
+
+
+
+[params]
+disableHeroVideo = true
+intro="xin chao"
+# =================Social====================
+[params.social] 
+[[params.social.links]]
+name= "GitHub"
+url ="https://github.com/thnhan1"
+[[params.social.links]]
+name= "LinkedIn"
+url ="https://www.linkedin.com/in/trannhan10/"
+#=================Social end====================
+
+#===================Projects start==============
+[params.projects]
+[[params.projects.links]]
+name = "Plant Shop Website"
+url = "#"
+desc = "Spring MVC project in subject ESD"
+start_date = "2024-06-07"
+license = "GPL-3.0-or-later"
+
+[[params.projects.links]]
+name = "Restaurant Reservation System"
+url = "https://thnhan1.github.io/ebooking.git/"
+desc = "Fullstack web application for chain restaurant booking module"
+start_date = "2025-04-08"
+# license = ""
+
+#=================Projects end====================
+
+#=============style editor===========
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+  [markup.goldmark.extensions]
+  footnote = true
+  typographer = true
+  [markup.highlight]
+  style = "onedark"
+  guessSyntax = true
+  lineNumbersInTable = true
+  tabWidth = 4
+#=============style end=========
+
+#================languages==============
+[languages]
+[languages.en]
+languageName ="English"
+languageCode= "en"
+weight=1
+
+[languages.vi]
+languageName ="Tiếng Việt"
+languageCode= "vi"
+weight=2
+
+#=================Header start=============
+[params.header]
+
+  [[params.header.links]]
+  name = "home"
+  url = "/"
+
+
+  [[params.header.links]]
+  name = "projects"
+  url = "/projects/"
+
+  [[params.header.links]]
+  name = "about"
+  url = "/about/"
+#=================Header end=============
