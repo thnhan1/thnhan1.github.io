@@ -1,0 +1,53 @@
+<script>
+  (function () {
+    let savedTheme = localStorage.getItem('theme') || 'light';
+    let giscusTheme = (savedTheme === 'light') ? 'dark_dimmed' : 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    localStorage.setItem('giscus-theme', giscusTheme);
+  })();
+</script>
+
+<section id="comments" class="mt-12">
+  <h2>Bình luận</h2>
+
+  <script src="https://giscus.app/client.js"
+        data-repo="thnhan1/thnhan1.github.io"
+        data-repo-id="R_kgDOPg9ppA"
+        data-category="General"
+        data-category-id="DIC_kwDOPg9ppM4CvH-h"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="vi"
+        crossorigin="anonymous"
+        async>
+  </script>
+</section>
+
+<script>
+  function setGiscusTheme(theme) {
+    const iframe = document.querySelector('iframe.giscus-frame');
+    if (!iframe) return;
+    iframe.contentWindow.postMessage(
+      { giscus: { setConfig: { theme } } },
+      'https://giscus.app'
+    );
+  }
+
+  // Áp dụng theme ngay khi load
+  document.addEventListener('DOMContentLoaded', () => {
+    let savedTheme = localStorage.getItem('theme') || 'light';
+    let giscusTheme = (savedTheme === 'light') ? 'dark_dimmed' : 'light';
+    setGiscusTheme(giscusTheme);
+  });
+
+  // Nếu có nút toggle
+  document.querySelector('#theme-toggle-btn')?.addEventListener('click', () => {
+    let siteTheme = document.documentElement.getAttribute('data-theme');
+    let giscusTheme = (siteTheme === 'light') ? 'dark_dimmed' : 'light';
+    setGiscusTheme(giscusTheme);
+  });
+</script>
