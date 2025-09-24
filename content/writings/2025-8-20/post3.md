@@ -1,6 +1,6 @@
 +++
 date = '2025-08-18T21:30:31+07:00'
-draft = false
+draft = true
 title = 'Third post'
 tags = ['poem', 'nature']
 +++
