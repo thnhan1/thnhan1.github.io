@@ -3,6 +3,7 @@ date = '2025-09-24T21:30:31+07:00'
 draft = false
 title = 'How I Use Obsidian'
 tags = ['note']
+readmore=['2025-09-25/40-question']
 +++
 
 # How I use Obsidian and organize notes
@@ -54,7 +55,3 @@ Add a property called `ratings`: If you're the type of person who likes to score
 
 ## Templates
 Do you find those ratings above strange? That's because I'm using the style of noting everything down—you're someone with short-term memory, now, noting down even people you just met, colleagues, restaurants, dishes, drinks, hence those ratings. Reference nearly [100 templates from the CEO](https://github.com/kepano/kepano-obsidian). I keep it simple with light evaluation.
-
-## Other articles
-
-- [40 questions you should answer every year](40-question.md)

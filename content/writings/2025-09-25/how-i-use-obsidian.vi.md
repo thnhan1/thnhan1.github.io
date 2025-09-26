@@ -3,6 +3,7 @@ date = '2025-09-24T21:30:31+07:00'
 draft = false
 title = 'Cách tui dùng Obsidian'
 tags = ['note']
+readmore=['2025-09-25/40-question']
 +++
 
 # Cách dùng obsidian và tổ chức note
@@ -49,6 +50,3 @@ Thêm 1 properties là `ratings`: Bạn là kiểu người thích chấm điể
 ## Templates
 Bạn thấy mấy cái ratings ở trên kỳ lạ không. Đó là vì đang dùng phong cách note lại mọi thứ, bạn là người não nhớ ngắn hạn ok, note lại kể cả ngừoi bạn vừa gặp, đồng nghiệp, quán ăn, món ăn, ly nước cũng note lại luôn nên mới có vụ ratings đó. Tham khảo gần [100 templates của anh CEO nha](https://github.com/kepano/kepano-obsidian). Tui thì đơn giản là đánh giá nhẹ thôi.
 
-## Bài viết khác
-
-- [40 câu hỏi bạn nên trả lời mỗi năm](40%20question)

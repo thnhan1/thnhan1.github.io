@@ -1,117 +1,133 @@
 # Silavind Extended
 
-A minimalist single-page Hugo theme, customized for portfolio websites.
-Supports responsive design, multi-language, code enhancements, and comment integration.
-Extends From [Silavind](https://github.com/khitezza/silavind)
+A minimalist single-page Hugo theme customized for portfolio and blog websites. Features responsive design, multi-language support, and integrated comment.
 
-> [!note]
-> This is custom repo not core Sivalid Extended Theme.
-> - Core silavind theme: [Silavind](https://github.com/khitezza/silavind)
-> - Core silavind theme extended: [Silavind Ext](https://github.com/thnhan1/silavind)
+Built upon the foundation of [Silavind](https://github.com/khitezza/silavind).
 
-## Demo website
+> [!NOTE]
+> This is a customized repository, not the core Silavind Extended Theme.
+>
+> - **Core theme**: [Silavind](https://github.com/khitezza/silavind)
+> - **Extended theme**: [Silavind Extended](https://github.com/thnhan1/silavind)
 
-👉[Demo blog 🌐](https://nhanab.xyz)
+## 🌐 Live Demo
 
-<img width="640" height="468" alt="image" src="https://github.com/user-attachments/assets/ba05346d-d8a2-485d-b18b-9922fc4914ae" />
+Check out the live demo: **[Demo Blog](https://nhanab.xyz)**
 
-
----
-
-## 🚀 Features & Change Log
-
-| No. | Change                  | Description                                            | Date       | Status     |
-| --- | ----------------------- | ------------------------------------------------------ | ---------- | ---------- |
-| 5   | **Add Comment Support** | Comment system via [Giscus](https://giscus.app)        | 2025-08-09 | ✅ Finished |
-| 4   | **Responsive Menu**     | Mobile-friendly navigation                             | 2025-08-20 | ✅ Finished |
-| 3   | **Multi-Language**      | Multi-language site support                            | 2025-08-20 | 🔄 Preview |
-| 2   | **Copy Code Block**     | Copy button with custom CSS/JS                         | 2025-08-20 | 🔄 Preview |
-| 1   | **Author Param Update** | `.Site.Author` → `.Site.Params.Author` (`>= v0.124.0`) | 2025-08-19 | ✅ Finished |
+<img width="640" height="468" alt="Silavind Extended Theme Preview" src="https://github.com/user-attachments/assets/ba05346d-d8a2-485d-b18b-9922fc4914ae" />
 
 ---
 
-## 📦 Getting Started
+## ✨ Features & Enhancements
 
-### 1. Requirements
-
-* [Git](https://git-scm.com/)
-* [Hugo Extended](https://github.com/gohugoio/hugo/releases)
-
-> 💡 **Windows users:** Download and install **Hugo Extended** from the [release page](https://github.com/gohugoio/hugo/releases).
+| Feature | Type|Description | Date | Status |
+|---------|--|-------------|------|--------|
+| **Comment System Localization** |Fix| Fix Language In Comment Section | 2025-09-26 | ✅ Complete |
+| **Giscus Integration** |Feat| GitHub-based comment system via [Giscus](https://giscus.app) | 2025-08-09 | ✅ Complete |
+| **Responsive Navigation** |Feat| Mobile-optimized menu with smooth animations | 2025-08-20 | ✅ Complete |
+| **Enhance Multi-Language Support** |Feat| Internationalization (i18n) capabilities | 2025-08-20 | 🔄 In Progress |
+| **Code Copy Functionality** |Feat| One-click copy button for code blocks | 2025-08-20 | 🔄 In Progress |
+| **Hugo Compatibility** |Feat| Updated for Hugo v0.124.0+ parameter structure | 2025-08-19 | ✅ Complete |
 
 ---
 
-### 2. Create New Site
+## � Quick Start
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **[Git](https://git-scm.com/)** - Version control system
+- **[Hugo Extended](https://github.com/gohugoio/hugo/releases)** - Static site generator (v0.124.0+)
+
+> 💡 **Note for Windows users:** Download Hugo Extended (not the standard version) from the [official releases page](https://github.com/gohugoio/hugo/releases).
+
+---
+
+### Installation
+
+#### 1. Create New Hugo Site
 
 ```bash
-# Create new site
-hugo new site Website
-cd Website
+# Create a new Hugo site
+hugo new site my-blog
+cd my-blog
 
-# Initialize Git
+# Initialize Git repository
 git init
 ```
 
----
+#### 2. Add Silavind Theme
 
-### 3. Add Theme
-
-Add as a submodule:
+Install as a Git submodule (recommended):
 
 ```bash
+# Add theme as submodule
 git submodule add https://github.com/thnhan1/silavind themes/silavind
 git submodule init
 ```
 
-Update theme to latest:
+#### 3. Update Theme
+
+Keep your theme up-to-date:
 
 ```bash
+# Update to latest version
 git submodule update --remote --merge
 ```
 
 ---
 
-## ✍️ Content Management
+## 📝 Content Management
 
-### Add New Article
+### Creating New Posts
 
+#### Simple Article
 ```bash
-hugo new content writings/20xx-xx-xx-Title.md
+# Create a new blog post
+hugo new content/writings/2025-01-01-my-first-post.md
 ```
 
-### Add Article With Image Bundle
-
+#### Article with Images (Page Bundle)
 ```bash
-hugo new content writings/20xx-xx-xx-Title/index.md
-cp ~/images/cover.webp content/writings/20xx-xx-xx-Title/cover.webp
+# Create post with dedicated folder for assets
+hugo new content/writings/2025-01-01-my-first-post/index.md
+
+# Add images to the same folder
+cp ~/images/featured.webp content/writings/2025-01-01-my-first-post/
+```
+
+### Content Structure
+```
+content/
+├── writings/
+│   ├── 2025-01-01/post-one.md # single language
+│   └── 2025-01-02/ # multi post, multi language
+│       ├── post-1.md
+│       └── post-2.md
+├── about/
+│   └── index.md
+└── projects/
+    └── index.md
 ```
 
 ---
 
-## 🚀 Deployment
+## 🌐 Deployment Options
 
-### Using **GitHub Pages** with Actions:
-👉 [Workflow Example](https://github.com/ertzizart/silavind/blob/pages/.github/workflows/gh-pages.yml)
+### GitHub Pages with Actions
 
-**💥 (GitHub Pages disbale inline script by their Content CSP Policy).**
+> ⚠️ **Important**: GitHub Pages disables inline scripts due to Content Security Policy (CSP).
 
-```bash
-# Add custom domain (if any)
-echo "yourdomain.com" >> CNAME
+1. **Set up workflow**: Use this [workflow example](https://github.com/ertzizart/silavind/blob/pages/.github/workflows/gh-pages.yml)
 
-# Push to GitHub
-git add .
-git commit -m "first commit"
-git branch -M trunk
-git remote add origin https://github.com/your-name/repo-name.git
-git push -u origin trunk
-```
+2. **Deploy to GitHub**:
 
-Then configure DNS records for your domain.
+> ![warning] This theme using script so that it can not using GitHub page to deploy because GitHub CSP Policy.
 
-### Using Netlify
+### Netlify Deployment (Recommend)
 
-Create `netlify.toml`. Deploy using GitHub Repo in netlify. It will public netlify domain if you not have own domain. Example [yourblog.netlify.app](yourblog.netlify.app).
+Create `netlify.toml` in your project root:
 
 ```toml
 [build]
@@ -124,22 +140,56 @@ Create `netlify.toml`. Deploy using GitHub Repo in netlify. It will public netli
   HUGO_ENABLEGITINFO = "true"
 ```
 
+Then connect your GitHub repository to Netlify for automatic deployments.
+
 ---
 
-## ⚙️ Additional Features
+## 🔧 Configuration
 
-* **Comments**: Integrated via [Giscus](https://giscus.app)
-* **Responsive Menu**: Optimized for mobile
-* **Multi-Language**: i18n support (preview)
-* **Copy Code Block**: Easy one-click copy for code snippets (preview)
+### Basic Setup
+
+Update your `hugo.toml`:
+
+```toml
+title = "Your Blog Title"
+theme = "silavind"
+languageCode = "en"
+
+[params]
+  author = "Your Name"
+  intro = "Your tagline or introduction"
+  
+[params.social]
+  [[params.social.links]]
+    name = "GitHub"
+    url = "https://github.com/username"
+```
+
+### Advanced Features
+
+- **💬 Comments**: Integrated via [Giscus](https://giscus.app)
+- **📱 Responsive Design**: Mobile-optimized navigation
+- **🌍 Multi-Language**: i18n support for international sites
+- **📋 Code Copying**: One-click copy functionality for code blocks
 
 ---
 
 ## 📄 License
 
-Licensed under [GNU GPL v3](https://github.com/ertzizart/silavind/blob/trunk/LICENSE)
+This project is licensed under the [GNU General Public License v3.0](https://github.com/ertzizart/silavind/blob/trunk/LICENSE).
 
-## 🔧 Feature Requests & Issues
+## 🤝 Contributing
 
-- Found a bug? → [Open an Issue](https://github.com/thnhan1/silavind/issues)  
-- Want a new feature? → create an Issue with the `enhancement` label 
+We welcome contributions! Here's how you can help:
+
+- **🐛 Found a bug?** → [Open an Issue](https://github.com/thnhan1/silavind/issues)
+- **💡 Have a feature idea?** → Create an issue with the `enhancement` label
+- **🔧 Want to contribute code?** → Fork the repo and submit a pull request
+
+---
+
+## 📞 Support
+
+- **Documentation**: Check out the [wiki](https://github.com/thnhan1/silavind/wiki) for detailed guides
+- **Community**: Join discussions in [GitHub Discussions](https://github.com/thnhan1/silavind/discussions)
+- **Issues**: Report bugs or request features in [Issues](https://github.com/thnhan1/silavind/issues)

@@ -8,7 +8,7 @@
 </script>
 
 <section id="comments" class="mt-12">
-  <h2>Bình luận</h2>
+  <h2>{{ index (index $.Site.Data.l10n $.Site.Language.Lang) "name" }}</h2>
 
   <script src="https://giscus.app/client.js"
         data-repo="thnhan1/thnhan1.github.io"
@@ -21,7 +21,7 @@
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="light"
-        data-lang="vi"
+        data-lang="{{ $.Site.Language.Lang }}"
         crossorigin="anonymous"
         async>
   </script>
