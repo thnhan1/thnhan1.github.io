@@ -1,6 +1,6 @@
 +++
 date = '2025-09-24T21:30:31+07:00'
-draft = false
+draft = true 
 title = 'Cách tui dùng Obsidian'
 tags = ['note']
 readmore=['2025-09-25/40-question']

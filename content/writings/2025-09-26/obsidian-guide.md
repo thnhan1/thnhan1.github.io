@@ -1,6 +1,6 @@
 +++
 date = '2025-09-26T10:15:09+07:00'
-draft = false
+draft = true 
 title = 'Obsidian Guide'
 readmore=['2025-09-25/how-i-use-obsidian']
 # slug= ''
