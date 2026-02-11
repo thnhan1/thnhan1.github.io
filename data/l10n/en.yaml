@@ -3,6 +3,8 @@ about: 'About'
 writings: 'Writings'
 projects: 'Projects'
 backtotop: 'Back to top'
+archive: 'Archive'
+search: 'Search'
 pagenotfound_title: 'Page not found'
 pagenotfound_desc: "The page you are looking for doesn't exist"
 return_home: 'Return to home'

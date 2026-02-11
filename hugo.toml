@@ -28,7 +28,7 @@ homepage = 'https://nhanabc.xyz'
 disableHeroVideo = true
 intro="Life is short, Live it well"
 # =================Social====================
-[params.social] 
+[params.social]
 [[params.social.links]]
 name= "GitHub"
 url ="https://github.com/thnhan1"
@@ -97,4 +97,8 @@ weight=1
   [[params.header.links]]
   name = "about"
   url = "/about/"
+
+  [[params.header.links]]
+  name = "archive"
+  url = "/archives/"
 #=================Header end=============
