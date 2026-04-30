@@ -32,13 +32,45 @@
   {{ end }}
 </ul>
 <style>
+  .title-h1 {
+    margin: 10px  auto 1.25rem auto;
+    max-width: 100%;
+    color:red;
+    width: min(100%, 420px);
+  }
+
+  .article-header {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-x1);
+    text-align: center;
+    opacity: .8;
+    margin-bottom: 1rem;
+    gap: 0.35rem;
+  }
+
+  .article-header > time {
+    margin-bottom: 0;
+  }
+
+  .article-author {
+    margin-top: 1.2rem;
+  }
+
+  .article-license {
+    opacity: .8;
+    font-size: var(--font-x1);
+    padding: 0.25rem 0;
+    margin-top: 1rem;
+  }
+
   .tags {
     list-style: none;
     padding: 0;
-    margin: 1rem 0;
+    margin: 0.5rem 0 1rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
   .tags li {
     display: inline;
@@ -46,7 +78,7 @@
   .tag-link {
     background: #f3f3f3;
     color: #333;
-    padding: 0.3em 0.7em;
+    padding: 0.25em 0.6em;
     border-radius: 1em;
     text-decoration: none;
     font-size: 0.95em;

@@ -4,62 +4,73 @@ display_head= true
 date = '2025-08-19T21:30:31+07:00'
 +++
 
-## 👋 Xin chào, tôi là _Trần Hữu Nhân_
+---
+title: "About"
+layout: "blank"
+---
 
-Một Backend Developer đam mê xây dựng các ứng dụng phía máy chủ có khả năng mở rộng.
+# Trần Hữu Nhân
 
-```json
-"my-stack": {
-    "back-end": ["Spring Boot/Cloud/Security", "Node.js/Nest.Js"],
-    "front-end": ["React", "NestJs", "html/css/tailwindcdss"],
-    "cloud-deploy": ["Basic AWS", "GCP", "CloudFlare", "GitHub Actions"],
-    "tools": ["Linux","Docker", "Requirement Analysis Design"],
-    "database": ["PostgreSQL", "Redis"],
-    "others": ["Oauth2", "Keycloak", "RabbitMQ", "Security"]
-}
-```
+**Backend Developer** — I build things that work quietly behind the scenes.
 
-## 💼 Kinh nghiệm
+I believe good code isn't just functional. It's maintainable, scalable, and readable — even to myself six months later.
 
-### Lập trình viên phần mềm _(Hiện tại)_
+---
 
-- Phát triển ứng dụng phía máy chủ có khả năng mở rộng với <span style='color: #228B22; font-weight: bold;'>Spring Boot</span>
-- Xây dựng giao diện người dùng đáp ứng bằng <span style='color: #00d8ff; font-weight: bold;'>React/Next.js</span>
+## 🔧 What I Do
 
-### Học tại trường Đại học (2021~Hiện tại)
+These days, I focus on the **Spring Boot** ecosystem for backend development. Sometimes I write **NestJS** when the project calls for Node.js.
 
-- **Chuyên ngành**: Khoa học máy tính
-- **Data mining**: Nghiên cứu dự án "Khai thác mẫu tiện ích cao định kỳ trong cơ sở dữ liệu giao dịch"
-- **Software Development**: Java Spring, Nodejs, System Requirement and Analysis
+I know enough frontend to build decent UIs for my blog or internal tools — not the prettiest, but perfectly usable.
 
-### Viết & Đóng góp
+**My daily toolkit:**
 
-- Viết bài trên Viblo, SubStack, Blog cá nhân
-- Đóng góp mã nguồn mở
+- **Backend:** Spring Boot, Spring Cloud, Spring Security, NestJS
+- **Database:** PostgreSQL, Redis
+- **DevOps (basic):** Docker, Linux, GitHub Actions, basic AWS/GCP
+- **Security & Messaging:** OAuth2, Keycloak, RabbitMQ
 
-## 📫 Liên hệ
+---
 
-<p>
-  <a href="https://github.com/thnhan1">
-    <img src="https://img.icons8.com/fluent/24/000000/github.png" width="20" style="vertical-align:middle; margin-right:8px"/>
-    @thnhan1
-  </a>
-</p>
-<p>
-  <a href="mailto:huunhantran10@gmail.com">
-    <img src="https://img.icons8.com/fluent/24/000000/email.png" width="20" style="vertical-align:middle; margin-right:8px"/>
-    nhandev10@gmail.com
-  </a>
-</p>
-<p>
-  <a href="https://linkedin.com/in/yourprofile">
-    <img src="https://img.icons8.com/fluent/24/000000/linkedin.png" width="20" style="vertical-align:middle; margin-right:8px"/>
-    LinkedIn
-  </a>
-</p>
-<p>
-  <a href="/CV_Software_Developer_TranHuuNhan.pdf"
-    target="_blank"
-    rel="noopener"
-    style="display: inline-block; padding: 10px 18px; background-color: #228B22; color: #fff; border-radius: 4px; text-decoration: none; font-weight: bold; padding-left: 0">View my CV</a>
-</p>
+## 📂 Where I've Been
+
+### 👨‍💻 Software Developer *(Current)*
+
+Building scalable backend applications — designing APIs, optimizing queries, and occasionally fighting production fires at 10 PM.
+
+### 🎓 University Research
+
+Computer Science major.  
+Worked on **data mining** — specifically, discovering periodic high-utility patterns in transactional databases. Academic? A bit. But it taught me how to find signal in the noise.
+
+### ✍️ Writing
+
+I write on **Viblo**, **Substack**, and my personal blog.  
+Writing forces me to truly understand what I think I already know.
+
+---
+
+## 🌱 Outside of Code
+
+When I'm away from the screen:
+
+- Reading technical books (and non-technical ones too)
+- Wondering why production is all green with zero error logs
+- Or just drinking coffee and staring out the window
+
+---
+
+## 📫 Contact
+
+I'm not a fan of notification noise. But if you have something real to discuss — tech, opportunities, or just an interesting conversation — email or LinkedIn works best.
+
+- **GitHub:** [@thnhan1](https://github.com/thnhan1)
+- **LinkedIn:** [Trần Hữu Nhân](https://linkedin.com/in/yourprofile)
+
+<!-- <p>
+  <a href="/CV_Software_Developer_TranHuuNhan.pdf" target="_blank" style="display: inline-block; padding: 8px 20px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 4px; font-weight: 500;">📄 View my CV</a>
+</p> -->
+
+---
+
+*"Build it right. Build it clean. Then think about premature optimization."*

@@ -1,66 +1,63 @@
 +++
-title = 'About Me'
+title = 'About'
 display_head= true
 date = '2025-08-19T21:30:31+07:00'
 +++
 
-## 👋 Hi, I’m *Tran Huu Nhan*
 
-A Backend Developer passionate about building scalable server-side applications.
+# Trần Hữu Nhân
 
-```json
-"my-stack": {
-    "back-end": ["Spring Boot/Cloud/Security", "Node.js/Nest.Js"],
-    "front-end": ["React", "NestJs", "html/css/tailwindcdss"],
-    "cloud-deploy": ["Basic AWS", "GCP", "CloudFlare", "GitHub Actions"],
-    "tools": ["Linux","Docker", "Requirement Analysis Design"],
-    "database": ["PostgreSQL", "Redis"],
-    "others": ["Oauth2", "Keycloak", "RabbitMQ", "Security"]
-}
-```
+**Backend Developer** — I build things that work quietly behind the scenes.
 
-## 💼 Experience
+I believe good code isn't just functional. It's maintainable, scalable, and readable — even to myself six months later.
 
-### Software Developer *(Current)*
+---
 
-- Develop scalable server side application with Spring Boot  
-- Build responsive UIs using React/Next.js  
-- Self-tauch Fullstack development.
+## 🔧 What I Do
 
-### University Research
+### Working History
 
-- Major: Computer Science
-- Datamining: Periodic High Utility Pattern Mining in Transaction Database.
+- Jan 2026 - Now: I am Fresher AEM.
 
-### Writer & Contributor
+- Oct 2024-Dec 2026: These days, I focus on the **Spring Boot** ecosystem for backend development. Sometimes I write **NestJS** when the project calls for Node.js.
 
-- Articles on Viblo, SubStack, Personal Blog  
-- Open source contributor  
+I know enough frontend to build decent UIs for my blog or internal tools — not the prettiest, but perfectly usable.
 
-## 📫 Contact me
 
-<p>
-  <a href="https://github.com/thnhan1">
-    <img src="https://img.icons8.com/fluent/24/000000/github.png" width="20" style="vertical-align:middle; margin-right:8px"/>
-    @thnhan1
-  </a>
-</p>
-<p>
-  <a href="mailto:huunhantran10@gmail.com">
-    <img src="https://img.icons8.com/fluent/24/000000/email.png" width="20" style="vertical-align:middle; margin-right:8px"/>
-    huunhantran10@gmail.com
-  </a>
-</p>
-<p>
-  <a href="https://linkedin.com/in/yourprofile">
-    <img src="https://img.icons8.com/fluent/24/000000/linkedin.png" width="20" style="vertical-align:middle; margin-right:8px"/>
-    LinkedIn
-  </a>
-</p>
+### 🎓 University Research
 
-<p>
-  <a href="/CV_Software_Developer_TranHuuNhan.pdf"
-    target="_blank"
-    rel="noopener"
-    style="display: inline-block; padding: 10px 18px; background-color: #228B22; color: #fff; border-radius: 4px; text-decoration: none; font-weight: bold; padding-left: 0">View my CV</a>
-</p>
+Computer Science major.  
+Worked on **data mining** — specifically, discovering periodic high-utility patterns in transactional databases. Academic? A bit. But it taught me how to find signal in the noise.
+
+### ✍️ Writing
+
+I write on **Viblo**, **Substack**, and my personal blog.  
+Writing forces me to truly understand what I think I already know.
+
+---
+
+## 🌱 Outside of Code
+
+When I'm away from the screen:
+
+- Reading technical books (and non-technical ones too)
+- Wondering why production is all green with zero error logs
+- Or just drinking coffee and staring out the window
+
+---
+
+## 📫 Contact
+
+I'm not a fan of notification noise. But if you have something real to discuss — tech, opportunities, or just an interesting conversation — email or LinkedIn works best.
+
+- **GitHub:** [@thnhan1](https://github.com/thnhan1)
+- **Email:** [huunhantran10@gmail.com](mailto:huunhantran10@gmail.com)
+- **LinkedIn:** [Trần Hữu Nhân](https://linkedin.com/in/yourprofile)
+
+<!-- <p>
+  <a href="/CV_Software_Developer_TranHuuNhan.pdf" target="_blank" style="display: inline-block; padding: 8px 20px; background-color: #2c3e50; color: white; text-decoration: none; border-radius: 4px; font-weight: 500;">📄 View my CV</a>
+</p> -->
+
+---
+
+> *"Build it right. Build it clean. Then think about premature optimization."*
