@@ -1,0 +1,3 @@
+[submodule "themes/nhanoki"]
+	path = themes/nhanoki
+	url = https://github.com/thnhan1/nhanoki.git
