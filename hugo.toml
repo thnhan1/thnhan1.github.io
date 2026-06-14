@@ -1,0 +1,73 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Nhan'
+theme = 'nhanoki'
+
+# Configuration for Steph Ango style website
+[params]
+  # Author information
+  author = "Nhan"
+  description = "Live is short, live it well"
+  
+  # Navigation
+  [[params.nav]]
+    name = "Nhan"
+    url = "/"
+    weight = 10
+  
+  [[params.nav]]
+    name = "About"
+    url = "/about"
+    weight = 20
+  
+  [[params.nav]]
+    name = "Now"
+    url = "/now"
+    weight = 30
+  
+  [[params.nav]]
+    name = "Latest"
+    url = "/latest"
+    weight = 40
+
+# Taxonomy configuration for topics
+[taxonomies]
+  topic = "topics"
+  tag = "tags"
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 10
+  
+  [[menu.main]]
+    name = "Now"
+    url = "/now"
+    weight = 20
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "dracula"
+    noClasses = true
+    lineNos = true
+    lineNumbersInTable = false
+    tabWidth = 2
+
+# RSS configuration
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss+xml"
+    baseName = "feed"
